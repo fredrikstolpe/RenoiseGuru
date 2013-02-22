@@ -1,0 +1,765 @@
+return SynthDefinition{
+  content_height = 590,
+  id = "novation_drumstation";
+  name = "Novation Drumstation",
+  author = "Hotelsinus [hotelsinushun@gmail.com]",
+  beta = true,
+  Section {
+    name = "808 SECTION",
+    Group {
+      layout = "horizontal",
+      name = "Bass Drum",
+        Parameter {
+          id = "frunt_cut_b",
+          name = "Front Cut",
+          number = 20,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "pan_b",
+          name = "Pan",
+          number = 21,
+          default_value = 64,
+          type = "cc",
+        },                   
+        Parameter {
+          id = "dist_b",
+          name = "Distortion",
+          number = 22,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "tune_b",
+          name = "Tune",
+          number = 23,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "tone_b",
+          name = "Tone",
+          number = 24,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "decay_b",
+          name = "Decay",
+          number = 25,
+          default_value = 0,
+          type = "cc",
+        },      
+      },
+      Group {
+        name = "Snare Drum",
+        Parameter {
+          id = "frunt_cut_s",
+          name = "Front Cut",
+          number = 26,
+          default_value = 0,
+          type = "cc",
+         },
+       Parameter {
+          id = "pan_s",
+          name = "Pan",
+          number = 27,
+          default_value = 64,
+          type = "cc",
+        },                   
+        Parameter {
+          id = "dist_s",
+          name = "Distortion",
+          number = 28,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "tune_s",
+          name = "Tune",
+          number = 29,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "tone_s",
+          name = "Tone",
+          number = 30,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "decay_s",
+          name = "Decay",
+          number = 31,
+          default_value = 0,
+                    type = "cc",
+     },
+    },
+    Group {
+      name = "Rim SHot",
+        Parameter {
+          id = "pan_rs",
+          name = "Pan",
+          number = 47,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_rs",
+          name = "Tune",
+          number = 48,
+          default_value = 64,
+          type = "cc", 
+     },
+    },
+     
+      Group {
+        name = "Maracas",
+        Parameter {
+          id = "pan_mr",
+          name = "Pan",
+          number = 72,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_mr",
+          name = "Tune",
+          number = 73,
+          default_value = 64,
+          type = "cc",
+   },
+    },          
+          
+      Group {
+        name = "Claves",
+        Parameter {
+          id = "pan_cla",
+          name = "Pan",
+          number = 74,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_cla",
+          name = "Tune",
+          number = 75,
+          default_value = 64,
+          type = "cc", 
+     },
+    },    
+      Group {
+        name = "Hand Clap",
+        Parameter {
+          id = "pan_hc",
+          name = "Pan",
+          number = 49,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_hc",
+          name = "Tune",
+          number = 50,
+          default_value = 64,
+          type = "cc", 
+
+     },
+    },    
+    
+          Group {
+      name = "Cowbell",
+        Parameter {
+          id = "pan_cow",
+          name = "Pan",
+          number = 51,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "dist_cow",
+          name = "Distortion",
+          number = 52,
+          default_value = 0,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "tune_cow",
+          name = "Tune",
+          number = 53,
+          default_value = 64,
+          type = "cc",    
+     },
+    },
+      Group {
+      name = "Closed HiHAT",
+        Parameter {
+          id = "pan_ch",
+          name = "Pan",
+          number = 54,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_ch",
+          name = "Tune",
+          number = 55,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "decay_ch",
+          name = "Decay",
+          number = 56,
+          default_value = 0,
+          type = "cc",    
+     },
+    },
+
+      Group {
+          style = "panel",  
+      name = "Open HiHAT",
+        Parameter {
+          id = "pan_oh",
+          name = "Pan",
+          number = 57,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_oh",
+          name = "Tune",
+          number = 58,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "decay_oh",
+          name = "Decay",
+          number = 59,
+          default_value = 0,
+          type = "cc",   
+     },
+    },
+
+      Group {
+          style = "panel",  
+      name = "Crash Cymbal",
+        Parameter {
+          id = "pan_cy",
+          name = "Pan",
+          number = 60,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_cy",
+          name = "Tune",
+          number = 61,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "decay_cy",
+          name = "Decay",
+          number = 62,
+          default_value = 0,
+          type = "cc",
+          
+         },
+    },          
+
+      Group {
+          style = "panel",  
+      name = "Low Tom",
+        Parameter {
+          id = "front_lt",
+          name = "Front Cut",
+          number = 32,
+          default_value = 0,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "pan_lt",
+          name = "Pan",
+          number = 33,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "dst_lt",
+          name = "Distortion",
+          number = 34,
+          default_value = 0,
+          type = "cc",  
+              },                   
+        Parameter {
+          id = "tune_lt",
+          name = "Tune",
+          number = 35,
+          default_value = 0,
+          type = "cc", 
+          },                   
+        Parameter {
+          id = "decay_lt",
+          name = "Decay",
+          number = 36,
+          default_value = 0,
+          type = "cc", 
+          
+
+         },
+    },          
+
+      Group {
+          style = "panel",  
+      name = "Mid Tom",
+        Parameter {
+          id = "front_mt",
+          name = "Front Cut",
+          number = 37,
+          default_value = 0,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "pan_mt",
+          name = "Pan",
+          number = 38,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "dst_mt",
+          name = "Distortion",
+          number = 39,
+          default_value = 0,
+          type = "cc",  
+              },                   
+        Parameter {
+          id = "tune_mt",
+          name = "Tune",
+          number = 40,
+          default_value = 0,
+          type = "cc", 
+          },                   
+        Parameter {
+          id = "decay_mt",
+          name = "Decay",
+          number = 41,
+          default_value = 0,
+          type = "cc",       
+          
+         },
+    },          
+
+      Group {
+          style = "panel",  
+      name = "High Tom",
+        Parameter {
+          id = "front_ht",
+          name = "Front Cut",
+          number = 42,
+          default_value = 0,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "pan_ht",
+          name = "Pan",
+          number = 43,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "dst_ht",
+          name = "Distortion",
+          number = 44,
+          default_value = 0,
+          type = "cc",  
+              },                   
+        Parameter {
+          id = "tune_ht",
+          name = "Tune",
+          number = 45,
+          default_value = 0,
+          type = "cc", 
+          },                   
+        Parameter {
+          id = "decay_ht",
+          name = "Decay",
+          number = 46,
+          default_value = 0,
+          type = "cc",                     
+                             
+                    
+        },
+      }
+   }, 
+   
+   
+  Section {
+    name = "909 SECTION",
+Group {
+    style = "panel",    
+      layout = "horizontal",
+      name = "Bass Drum",
+        Parameter {
+          id = "frunt_cut_9b",
+          name = "Front Cut",
+          number = 105,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "pan_9b",
+          name = "Pan",
+          number = 106,
+          default_value = 64,
+                    type = "cc",
+    },                   
+        Parameter {
+          id = "dist_9b",
+          name = "Distortion",
+          number = 107,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "tune_9b",
+          name = "Tune",
+          number = 76,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "att_9b",
+          name = "Attack",
+          number = 77,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "decay_9b",
+          name = "Decay",
+          number = 78,
+          default_value = 0,
+                    type = "cc",
+        
+      },      
+    },
+            Group {
+      name = "Snare Drum",
+          style = "panel",  
+        Parameter {
+          id = "frunt_cut_9s",
+          name = "Front Cut",
+          number = 108,
+          default_value = 0,
+          type = "cc",
+         },
+       Parameter {
+          id = "pan_9s",
+          name = "Pan",
+          number = 109,
+          default_value = 64,
+          type = "cc",
+        },                   
+        Parameter {
+          id = "dist_9s",
+          name = "Distortion",
+          number = 110,
+          default_value = 0,
+          type = "cc",
+        },
+        Parameter {
+          id = "tune_9s",
+          name = "Tune",
+          number = 79,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "tone_9s",
+          name = "Tone",
+          number = 80,
+          default_value = 0,
+                    type = "cc",
+        },
+        Parameter {
+          id = "decay_9s",
+          name = "Snappy",
+          number = 81,
+          default_value = 0,
+                    type = "cc",
+     },
+    },
+     
+    
+      Group {
+          style = "panel",  
+      name = "Rim SHot",
+        Parameter {
+          id = "pan_9rs",
+          name = "Pan",
+          number = 97,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_9rs",
+          name = "Tune",
+          number = 98,
+          default_value = 64,
+          type = "cc", 
+
+     },
+    },    
+      Group {
+          style = "panel",  
+      name = "Hand Clap",
+        Parameter {
+          id = "pan_9hc",
+          name = "Pan",
+          number = 99,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_9hc",
+          name = "Tune",
+          number = 100,
+          default_value = 64,
+          type = "cc", 
+
+     },
+    },    
+    
+      Group {
+          style = "panel",  
+      name = "Closed HiHAT",
+        Parameter {
+          id = "pan_9ch",
+          name = "Pan",
+          number = 111,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "dist_9ch",
+          name = "Distortion",
+          number = 101,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "tune_9ch",
+          name = "Tune",
+          number = 102,
+          default_value = 0,
+          type = "cc",    
+        },                   
+        Parameter {
+          id = "decay_9ch",
+          name = "Decay",
+          number = 103,
+          default_value = 0,
+          type = "cc",    
+        
+     },
+    },
+
+      Group {
+          style = "panel",  
+      name = "Open HiHAT",
+        Parameter {
+          id = "pan_9oh",
+          name = "Pan",
+          number = 112,
+          default_value = 64,
+          type = "cc",
+          }, 
+        Parameter {
+          id = "tune_9oh",
+          name = "Tune",
+          number = 104,
+          default_value = 64,
+          type = "cc",
+          },                   
+        Parameter {
+          id = "decay_9oh",
+          name = "Decay",
+          number = 113,
+          default_value = 0,
+          type = "cc",   
+     },
+    },
+    Group {
+      style = "panel",  
+      name = "Crash Cymbal",
+      Parameter {
+        id = "pan_9cy",
+        name = "Pan",
+        number = 114,
+        default_value = 64,
+        type = "cc",
+      }, 
+      Parameter {
+        id = "tune_9cy",
+        name = "Tune",
+        number = 115,
+        default_value = 64,
+        type = "cc",
+      },                   
+      Parameter {
+        id = "decay_9cy",
+        name = "Decay",
+        number = 116,
+        default_value = 0,
+        type = "cc",
+      },
+    },
+      Group {
+        style = "panel",  
+        name = "Ride Cymbal",
+        Parameter {
+          id = "pan_9rcy",
+          name = "Pan",
+          number = 117,
+          default_value = 64,
+          type = "cc",
+        }, 
+        Parameter {
+          id = "tune_9rcy",
+          name = "Tune",
+          number = 118,
+          default_value = 64,
+          type = "cc",
+        },                   
+        Parameter {
+          id = "decay_9rcy",
+          name = "Decay",
+          number = 119,
+          default_value = 0,
+          type = "cc",    
+        },
+      },          
+      Group {
+        style = "panel",  
+        name = "Low Tom",
+        Parameter {
+          id = "front_9lt",
+          name = "Front Cut",
+          number = 82,
+          default_value = 0,
+          type = "cc",
+        }, 
+        Parameter {
+          id = "pan_9lt",
+          name = "Pan",
+          number = 83,
+          default_value = 64,
+          type = "cc",
+        },                   
+        Parameter {
+          id = "dst_9lt",
+          name = "Distortion",
+          number = 84,
+          default_value = 0,
+          type = "cc"
+        },                   
+        Parameter {
+          id = "tune_9lt",
+          name = "Tune",
+          number = 85,
+          default_value = 0,
+          type = "cc"
+        },                   
+        Parameter {
+          id = "decay_9lt",
+          name = "Decay",
+          number = 86,
+          default_value = 0,
+          type = "cc"
+        },
+    },          
+    Group {
+      style = "panel",  
+      name = "Mid Tom",
+        Parameter {
+          id = "front_9mt",
+          name = "Front Cut",
+          number = 87,
+          default_value = 0,
+          type = "cc",
+        }, 
+        Parameter {
+          id = "pan_9mt",
+          name = "Pan",
+          number = 88,
+          default_value = 64,
+          type = "cc",
+        },                   
+        Parameter {
+          id = "dst_9mt",
+          name = "Distortion",
+          number = 89,
+          default_value = 0,
+          type = "cc",  
+        },                   
+        Parameter {
+          id = "tune_9mt",
+          name = "Tune",
+          number = 90,
+          default_value = 0,
+          type = "cc", 
+        },                   
+        Parameter {
+          id = "decay_9mt",
+          name = "Decay",
+          number = 91,
+          default_value = 0,
+          type = "cc",
+        },
+    },          
+    Group {
+      style = "panel",  
+      name = "Mid Tom",
+      Parameter {
+        id = "front_9ht",
+        name = "Front Cut",
+        number = 92,
+        default_value = 0,
+        type = "cc",
+      }, 
+      Parameter {
+        id = "pan_9ht",
+        name = "Pan",
+        number = 93,
+        default_value = 64,
+        type = "cc",
+      },                   
+      Parameter {
+        id = "dst_9ht",
+        name = "Distortion",
+        number = 94,
+        default_value = 0,
+        type = "cc",  
+      },                   
+      Parameter {
+        id = "tune_9ht",
+        name = "Tune",
+        number = 95,
+        default_value = 0,
+        type = "cc", 
+      },                   
+      Parameter {
+        id = "decay_9ht",
+        name = "Decay",
+        number = 96,
+        default_value = 0,
+        type = "cc",                                   
+      }
+    }
+  }  
+}

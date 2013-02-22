@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool>
+  <ApiVersion>3.0</ApiVersion>
+  <Id>com.cornbeast.Guru</Id>
+  <Version>1.7</Version>
+  <Author>Cornbeast [cornbeast@cornbeast.com]</Author>
+  <Name>Guru</Name>
+  <Category>Midi Controllers</Category>
+  <Description>Generic midi synth mapper</Description>
+  <Icon />
+</RenoiseScriptingTool>
